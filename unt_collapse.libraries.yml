@@ -1,0 +1,11 @@
+collapse_styles:
+  css:
+    theme:
+      css/unt_collapse.css: {}
+
+  js:
+    js/unt_collapse.js: {}
+
+  dependencies:
+    - core/jquery
+    - core/drupal

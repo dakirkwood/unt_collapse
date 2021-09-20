@@ -1,0 +1,13 @@
+name: 'UNT Collapse'
+type: module
+description: 'Installs the UNT Collapse plugin for CKEditor4'
+core_version_requirement: 9.x
+package: 'CKEditor Plugins'
+dependencies:
+  - ckeditor
+
+libraries:
+  - unt_collapse/collapse_styles
+
+ckeditor_stylesheets:
+  - css/collapse.css

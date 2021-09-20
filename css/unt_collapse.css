@@ -1,0 +1,49 @@
+.collapse-group {
+  /*background-color: #eee;*/
+  border-top:1px solid #ccc;
+  /*border-radius:3px;*/
+  /*box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);*/
+  /*margin: .5rem 0;*/
+  padding: .5rem;
+}
+.collapse-group h2.collapse, .collapse-group h3.collapse {
+  color: #007439;
+  cursor: pointer;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+.collapse-group span, .collapse-group span {
+  border-radius: 50%;
+  color: #FFF;
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.125rem;
+  margin-right: .5rem;
+  padding: 0 .3125rem .125rem;
+  transition: all .25s;
+  line-height: 1.125rem;
+  position: relative;
+  top: -.25rem;
+}
+.collapse-group span.closed, .collapse-group span.closed {
+  background-color: #007439;
+  transform: rotate(0deg);
+}
+.collapse-group span.open, .collapse-group span.open {
+  background-color: #900;
+  transform: rotate(45deg);
+}
+span.no-js{display:none;}
+.collapse-group div {
+  overflow: hidden;
+  transition: height .5s;
+  margin: 0 1.5rem;
+  position:relative;
+}
+.collapse-group div.closed {
+  height: 0;
+}
+
+.collapse-group + hr {
+  display: none;
+}
